@@ -9,10 +9,16 @@ This project was developed as a part of HackCU 2018. The aim of the project is t
 Folder structure-
 
 ```
------|HackCU_RemoteDataProcessing_Zumilink
-                             |-----remote_client(README.txt,main.cpp) 
-                             |
-                             |-----server()
+-----HackCU_RemoteDataProcessing_Zumilink
+         |-----remote_client 
+                    |----- README.txt
+                    |----- main.cpp 
+         |
+         |-----server
+                    |----- subscribe_publish_sample.c
+                    |----- aws_iot_config.h
+                    |----- Makefile
+                    |----- readme.md
 ```
 
 
