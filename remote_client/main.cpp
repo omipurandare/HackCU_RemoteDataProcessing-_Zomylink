@@ -1,7 +1,13 @@
-// This is a single cpp source file that reads the image file from a 
-// serial connection, processes the image to count the number of faces
-// and sends this information to the non-remote freewave device from 
-// which it is uploaded to cloud via AWS.
+// File : 			main.cpp
+// Authors: 		Pavan Dhareshwar, Omkar Purandare, Virag Gada, Shreyas Vasanthkumar 
+// Description : 	This is a single cpp source file that reads the image file from a 
+// 					serial connection, processes the image to count the number of faces
+// 					and sends this information to the non-remote freewave device from 
+// 					which it is uploaded to cloud via AWS.
+
+// This code is developed for HackCU_RemoteDataProcessing_Zumilink as part of HackCU IV.
+// Parts of the code is referenced from official OpenCV website and academic projects of
+// collaborators. 
 
 
 #include <iostream>
