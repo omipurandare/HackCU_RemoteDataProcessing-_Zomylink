@@ -109,7 +109,7 @@ int countNumFaces()
   if (!faceCascade.load( faceCascadeName ))
   {
     std::cerr << "Could not load face classifier" << std::endl;
-    return; 
+    return -1; 
   }
    
   //The captured frame
